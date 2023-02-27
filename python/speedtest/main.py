@@ -4,7 +4,7 @@ import time
 
 def timer():
     start=time.time()
-    response=requests.get('https://google.com')
+    response=requests.get('https://8.8.8.8')
     if response.status_code==200:
         end=time.time()
         final=(end-start)*100
